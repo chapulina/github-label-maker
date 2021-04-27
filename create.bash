@@ -2,7 +2,6 @@
 
 LIBS=(
   "docs"
-  "sdformat"
   "ign-cmake"
   "ign-common"
   "ign-fuel-tools"
@@ -17,6 +16,10 @@ LIBS=(
   "ign-sensors"
   "ign-tools-dev"
   "ign-transport"
+  "ign-utils"
+  "ign_ros2_control"
+  "ros_ign"
+  "sdformat"
 )
 
 for LIB in "${LIBS[@]}"
